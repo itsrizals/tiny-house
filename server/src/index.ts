@@ -1,4 +1,5 @@
-require('dotenv').config()
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+require('dotenv-extended').load()
 
 import express, { Application } from 'express'
 import { ApolloServer } from 'apollo-server-express'
