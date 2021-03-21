@@ -1,10 +1,10 @@
 {
   "name": "tiny-house",
   "author": "Rizal Sofyan <rizalsofyans@gmail.com> (https://rizalsofyans.rocks/)",
-  "title": "Tiny House | An App to rent house.",
-  "descriptions": "Tiny House is an app to rent a house, using Node.js, Typescript, MongoDB, React.js.",
+  "title": "Tiny House | An App to rent Houses and Apartment.",
+  "descriptions": "Tiny House is a web application for the rental of Houses and Apartments. Made using technology MongoDB, Express.js, React.js, Node.js.. and Typescript too!",
   "version": "1.0.0",
-  "main": "./server/src/index.js",
+  "main": "./src/index.ts",
   "keywords": [],
   "private": true,
   "license": "MIT",
@@ -13,9 +13,11 @@
     "build": "tsc -p ./"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "@types/body-parser": "^1.19.0",
     "@types/express": "^4.17.11",
     "@types/node": "^14.14.35",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
