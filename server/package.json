@@ -4,7 +4,7 @@
   "title": "Tiny House | An App to rent house.",
   "descriptions": "Tiny House is an app to rent a house, using Node.js, Typescript, MongoDB, React.js.",
   "version": "1.0.0",
-  "main": "./server/src/index.js",
+  "main": "./src/index.ts",
   "keywords": [],
   "private": true,
   "license": "MIT",
